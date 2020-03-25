@@ -4,30 +4,30 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Über mich"
-  url = "about/"
-  weight = 10
-  
+name = "Essays"
+url = "categories/essays/"
+weight = 10
+
 [[main]]
   name = "Tech"
   url = "categories/technology/"
   weight = 20
-  
-  [[main]]
-  name = "Essays"
-  url = "categories/essays/"
+
+[[main]]
+  name = "Über mich"
+  url = "about/"
   weight = 30
   
 [[main]]
   name = "Github"
   url = "https://github.com/nomaad"
   weight = 40
-  
+
 [[main]]
   name = "Twitter"
   url = "https://twitter.com/nomaad"
   weight = 50
-  
+
 #[[main]]
 #  name = "Courses"
 #  url = "courses/"
