@@ -5,7 +5,7 @@ author: Matthias Zaugg
 date: "2020-03-19"
 slug: academic-writing-setup
 categories:
-  - Technology
+  - Tech
 tags:
 - Writing
 - Academia

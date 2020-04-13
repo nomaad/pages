@@ -10,7 +10,7 @@ weight = 10
 
 [[main]]
   name = "Tech"
-  url = "categories/technology/"
+  url = "categories/tech/"
   weight = 20
 
 [[main]]

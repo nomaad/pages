@@ -46,7 +46,7 @@ user_groups:
 ---
 
 <!--
-I'm a master student of sociology doing my masters degree at the University of Basel. My interests include the analysis of late capitalism, political regression, technological change. In the focus on the impact of the latest technology on society, my background as social worker and that of a software developer converge. I try to understand novel technological means like AI and it's related ideologies with the intent to criticize them, while at the same time exploring the possibilities and limits of an emancipatory use of these means. 
+I'm a master student of sociology at the University of Basel. My interests include AI, data science, algorithm ethics, capitalism & labour, social justice, digital humanities and generally the impact of the latest technological innovations on society. Thats also where my background as social worker and that of a software developer converge. I try to understand novel technological means and it's related ideologies with the intent to criticize them, while at the same time exploring the possibilities and limits of an emancipatory use of these means. 
  
 I am currently attending a wide range of courses in sociology (of technology & work), digital humanities, gender studies and political science, while tinkering around with R - a programming language and environment, which is relatively new to me. On this website I record some of the results of these studies as documentation for myself and for other people who might potentially be interested on one subject or another.
 -->
