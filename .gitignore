@@ -1,5 +1,6 @@
 #OS
 .DS_Store
+
 # History files
 .Rhistory
 .Rapp.history
@@ -28,3 +29,8 @@ vignettes/*.pdf
 *.knit.md
 # R Environment Variables
 .Renviron
+
+deepset.ai.german.wikipedia.glove.txt
+content/.DS_Store
+content/post/.DS_Store
+content/.DS_Store
