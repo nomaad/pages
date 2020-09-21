@@ -1,18 +1,18 @@
 ---
 authors:
 - admin
-bio: I'm a master student of sociology as well as a social worker and former software developer with a research interest on the impact of current technological change on society.
-education:
-  courses:
-  - course: MA Soziologie
-    institution: Universität Basel
-    year: in Ausbildung
-  - course: BSc Soziale Arbeit
-    institution: Berner Fachhochschule BFH
-    year: 2017
-  - course: Informatiker EFZ Applikationsentwicklung
-    institution: Gewerblich-Industrielle Berufsschule Bern 
-    year: 2007
+bio: "I'm a MA-student in sociology & political science (also former software developer & social worker). Interests: digital capitalism, computational social science, social work, democracy & authoritarianism."
+#education:
+  # courses:
+  # - course: MA Soziologie
+  #   institution: Universität Basel
+  #   year: in Ausbildung
+  # - course: BSc Soziale Arbeit
+  #   institution: Berner Fachhochschule BFH
+  #   year: 2017
+  # - course: Informatiker EFZ Applikationsentwicklung
+  #   institution: Gewerblich-Industrielle Berufsschule Bern 
+  #   year: 2007
 #  - course: Certificate of Competence in Software Development
 #    institution: Bern Vocational School 
 #    year: 2007
@@ -23,7 +23,7 @@ email: ""
 #- Data Science für die Soziologie
 name: Matthias Zaugg
 organizations:
-- name: Universität Basel
+- name: University of Basel
   url: ""
 role: 
 social:
@@ -51,6 +51,6 @@ I'm a master student of sociology at the University of Basel. My interests inclu
 I am currently attending a wide range of courses in sociology (of technology & work), digital humanities, gender studies and political science, while tinkering around with R - a programming language and environment, which is relatively new to me. On this website I record some of the results of these studies as documentation for myself and for other people who might potentially be interested on one subject or another.
 -->
 
-Ich bin ein Masterstudent der Soziologie an der Universität Basel. Meine aktuellen Interessen umfassen unter anderem die Analyse der spätkapitalistischen Gesellschaft insbesondere bezogen auf technologischen Wandel. Darin konvergieren meine sozialwissenschaftliche Praxis und mein früherer Hintergrund als Software-Entwickler. Ich versuche, neue technologische Mittel wie KI und die damit verbundenen Ideologien zu verstehen, um sie zu kritisieren und gleichzeitig die Möglichkeiten und Grenzen eines emanzipatorischen Einsatzes dieser Mittel zu erforschen. 
+<!--Ich bin ein MA-Student in Soziologie & Politikwissenschaft an der Universität Basel (ausserdem ehemaliger Software-Entwickler & Sozialarbeiter). Interessen: digitaler Kapitalismus, computational social science, sozialer Wandel, Demokratie & Autoritarismus.-->
 
-Zurzeit besuche ich Kurse in (Technik- & Arbeits-)Soziologie, Digital Humanities, Geschlechterforschung und Politikwissenschaft, während ich in R - einer für mich relativ neuen Programmiersprache und Umgebung - herumbastle. Auf dieser Website halte ich einige der Ergebnisse dieser Auseinandersetzungen als Dokumentation für mich selbst und andere Personen fest, sollten diese an den behandelten Themen interessiert sein.
+I am a MA-student in Sociology & Political Science at the University of Basel (also a former software developer & social worker). Interests: digital capitalism, computational social science, social work, democracy & authoritarianism.

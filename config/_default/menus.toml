@@ -9,12 +9,12 @@ url = "categories/essays/"
 weight = 10
 
 [[main]]
-  name = "Tech"
+  name = "Computational Social Science"
   url = "categories/tech/"
   weight = 20
 
 [[main]]
-  name = "Über mich"
+  name = "About"
   url = "about/"
   weight = 30
   
@@ -25,7 +25,7 @@ weight = 10
 
 [[main]]
   name = "Twitter"
-  url = "https://twitter.com/nomaad"
+  url = "https://twitter.com/matthias_zaugg"
   weight = 50
 
 #[[main]]
