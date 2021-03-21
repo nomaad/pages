@@ -34,3 +34,7 @@ deepset.ai.german.wikipedia.glove.txt
 content/.DS_Store
 content/post/.DS_Store
 content/.DS_Store
+.RDataTmp
+.DS_Store
+content/.DS_Store
+content/post/.DS_Store

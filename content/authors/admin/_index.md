@@ -23,16 +23,16 @@ email: ""
 #- Data Science für die Soziologie
 name: Matthias Zaugg
 organizations:
-- name: University of Basel
+- name: University of Basel / University of Vienna
   url: ""
 role: 
 social:
-#- icon: envelope
-#  icon_pack: fas
-#  link: '#contact'
+- icon: envelope
+  icon_pack: fas
+  link: mailto:a12043754@unet.univie.ac.at
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/nomaad
+  link: https://twitter.com/matthias_zaugg
 #- icon: google-scholar
 #  icon_pack: ai
 #  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
@@ -53,4 +53,4 @@ I am currently attending a wide range of courses in sociology (of technology & w
 
 <!--Ich bin ein MA-Student in Soziologie & Politikwissenschaft an der Universität Basel (ausserdem ehemaliger Software-Entwickler & Sozialarbeiter). Interessen: digitaler Kapitalismus, computational social science, sozialer Wandel, Demokratie & Autoritarismus.-->
 
-I am a MA-student in Sociology & Political Science at the University of Basel (also a former software developer & social worker). Interests: digital capitalism, computational social science, social work, democracy & authoritarianism.
+I am a MA-student in Sociology & Political Science at the University of Basel and University of Vienna (also a former software developer & social worker). Interests: digital capitalism, computational social science, social work, democracy & authoritarianism.
