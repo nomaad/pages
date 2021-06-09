@@ -3,7 +3,7 @@ title: "Linkage Politics and Complex Governance in Transatlantic Surveillance "
 subtitle: "By Henry Farrell and Abraham L. Newman"
 #author: "Yihui Xie"
 #institute: "RStudio, PBC"
-date: "`r Sys.Date()`"
+date: "10.06.2021"
 output:
   xaringan::moon_reader:
     lib_dir: libs
@@ -15,7 +15,7 @@ output:
 
 class: inverse, center, middle
 
-# Theoretical framework FOO
+# Theoretical framework
 ---
 
 # Goal & Method
