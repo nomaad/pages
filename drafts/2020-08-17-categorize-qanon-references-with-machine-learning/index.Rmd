@@ -30,6 +30,8 @@ Zunächst soll überprüft werden, ob in den Daten tatsächlich eine Zunahme von
 Lesen wir die Daten ein:
 
 ```{r libraries, echo=FALSE, include=FALSE}
+rm(list=ls())
+#devtools::install_github("iqss-research/readme-software/readme")
 library(mongolite)
 library(jsonlite)
 library(tidyverse)
@@ -41,6 +43,7 @@ library(reshape2)
 library(jsonlite)
 library(tensorflow)
 library(readme)
+#remotes::install_github("joachim-gassen/tidycovid19")
 library(tidycovid19)
 ```
 
@@ -181,15 +184,22 @@ loadVecs <- function(path){
   row.names(wordVecs_corpus) <- wordVecs_keys
   wordVecs <- wordVecs_corpus
   rm(wordVecs_corpus)
-  rm(wordVecs_keys) ## Remove the original loaded table to save space 
+  rm(wordVecs_keys) ## Remove the original loaded table to save space
+  saveRDS(wordVecs, file = "wordVecs.rds")
+
   return(wordVecs)
 }
 
 ## Generate a word vector summary for each document
 # Use the german Wikipedia-trained GloVe word embeddings from https://deepset.ai/german-word-embeddings
 
-wordVecs <-loadVecs('deepset.ai.german.wikipedia.glove.txt')
-wordVec_summaries = undergrad(documentText = cleanme(tweets_coded$text), wordVecs = wordVecs)
+# Load word embeddings.. 
+# wordVecs <-loadVecs('deepset.ai.german.wikipedia.glove.txt')
+# wordVec_summaries = undergrad(documentText = cleanme(tweets_coded$text), wordVecs = wordVecs)
+#saveRDS(wordVec_summaries, file = "wordVec_summaries.rds")
+
+# ..or load from cache instead
+wordVec_summaries <- readRDS(file = "wordVec_summaries.rds")
 
 ```
 Mit den deutschen Vektoren können 74% der Wörter in den 904 Tweets zugeordnet werden. Das scheint mir eher wenig, hat aber wohl damit zu tun, dass in den Tweets sehr viele themenspezifische Hashtags zu finden sind. Nun folgt 1) das eigentliche Training, 2) die automatisierte Kategorisierung der Testdaten und 3) der Abgleich zur Überprüfung mit den manuellen Codes der Testdaten. Schritt 1 und 2 werden direkt von der `readme()`-Funktion implementiert. Davor werden die 904 Tweets per Zufall in ein Test- und ein Trainingsset aufgeteilt. Ich mache drei Durchläufe mit jeweils unterschiedlichen Test- und Trainingssets, um einen besseren Eindruck über die Zuverlässigkeit der Schätzungen zu bekommen.

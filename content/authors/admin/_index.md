@@ -1,35 +1,32 @@
 ---
 authors:
 - admin
-bio: "I'm a MA-student in sociology & political science (also former software developer & social worker). Interests: digital capitalism, computational social science, social work, democracy & authoritarianism."
-#education:
-  # courses:
-  # - course: MA Soziologie
-  #   institution: Universität Basel
-  #   year: in Ausbildung
-  # - course: BSc Soziale Arbeit
-  #   institution: Berner Fachhochschule BFH
-  #   year: 2017
-  # - course: Informatiker EFZ Applikationsentwicklung
-  #   institution: Gewerblich-Industrielle Berufsschule Bern 
-  #   year: 2007
-#  - course: Certificate of Competence in Software Development
-#    institution: Bern Vocational School 
-#    year: 2007
-email: ""
-#interests:
-#- (Technologischer) Kapitalismus
-#- Soziale Ungleichheit
-#- Data Science für die Soziologie
+bio: "I'm a MA-student in sociology & political science (also former software developer & social worker)."
+education:
+  courses:
+  - course: MA sociology and political science 
+    institution: University of Basel (University of Vienna in 2021)
+    year: August 2019 - Present
+  - course: BSc Social Work
+    institution: Bern University of Applied Sciences
+    year: September 2013 - April 2017
+  - course: Informational technologist, application development
+    institution: gibb vocational school Bern
+    year: August 2005 - July 2007
+email: "matthias.zaugg@unibas.ch"
+interests:
+  - "*Topics*: (digital) public sphere, (digital) capitalism, direct democracy, (de-)democratization"
+  - "*Theories*: theory of communicative action, deliberative theory of democracy, critical theory, historical materialism, feminist theory"
+  - "*Methods*: computational social science (dictionaries, topic models, (un)supervised ML, large language models), qualitative methods (content analysis, grounded theory, ethnography), quantitative methods"
 name: Matthias Zaugg
 organizations:
-- name: University of Basel / University of Vienna
-  url: ""
+- name: University of Basel
+  url: 
 role: 
 social:
 - icon: envelope
   icon_pack: fas
-  link: mailto:a12043754@unet.univie.ac.at
+  link: mailto:matthias.zaugg@unibas.ch
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/matthias_zaugg
@@ -42,15 +39,8 @@ social:
 superuser: true
 user_groups:
 - Researchers
-- Visitors
+#- Visitors
 ---
 
-<!--
-I'm a master student of sociology at the University of Basel. My interests include AI, data science, algorithm ethics, capitalism & labour, social justice, digital humanities and generally the impact of the latest technological innovations on society. Thats also where my background as social worker and that of a software developer converge. I try to understand novel technological means and it's related ideologies with the intent to criticize them, while at the same time exploring the possibilities and limits of an emancipatory use of these means. 
- 
-I am currently attending a wide range of courses in sociology (of technology & work), digital humanities, gender studies and political science, while tinkering around with R - a programming language and environment, which is relatively new to me. On this website I record some of the results of these studies as documentation for myself and for other people who might potentially be interested on one subject or another.
--->
 
-<!--Ich bin ein MA-Student in Soziologie & Politikwissenschaft an der Universität Basel (ausserdem ehemaliger Software-Entwickler & Sozialarbeiter). Interessen: digitaler Kapitalismus, computational social science, sozialer Wandel, Demokratie & Autoritarismus.-->
-
-I am a MA-student in Sociology & Political Science at the University of Basel and University of Vienna (also a former software developer & social worker). Interests: digital capitalism, computational social science, social work, democracy & authoritarianism.
+I am a master's student in sociology and political science at the University of Basel (also a former software developer and social worker). I try to combine critical theory with quantitative empirical research. In my master's thesis, I examined direct democratic labor struggles in Switzerland from a class theory and ideology-critical perspective.
