@@ -38,3 +38,6 @@ content/.DS_Store
 .DS_Store
 content/.DS_Store
 content/post/.DS_Store
+drafts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVec_summaries
+drafts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVec_summaries.rds
+drafts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVecs.rds
