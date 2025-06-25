@@ -1,5 +1,5 @@
 Version: 1.0
-ProjectId: 79af6478-c836-4d53-b836-35d98552853f
+ProjectId: 2252a480-c34d-4051-80d0-32ff02d08de0
 
 RestoreWorkspace: Default
 SaveWorkspace: Default
@@ -12,5 +12,3 @@ Encoding: UTF-8
 
 RnwWeave: Sweave
 LaTeX: pdfLaTeX
-
-BuildType: Website

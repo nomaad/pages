@@ -1,5 +1,7 @@
 #OS
 .DS_Store
+Thumbs.db
+.hugo_build.lock
 
 # History files
 .Rhistory
@@ -41,3 +43,6 @@ content/post/.DS_Store
 drafts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVec_summaries
 drafts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVec_summaries.rds
 drafts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVecs.rds
+content/posts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVec_summaries
+content/posts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVec_summaries.rds
+content/posts/2020-08-17-categorize-qanon-references-with-machine-learning/wordVecs.rds

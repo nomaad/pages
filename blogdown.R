@@ -1,18 +1,12 @@
 
-#blogdown::new_site(theme = 'gcushen/hugo-academic')
+# install.packages("tidyverse")
 
-# https://web.archive.org/web/20190622040330/https://sourcethemes.com/academic/docs/get-started/
+# blogdown::install_hugo()
+# blogdown::hugo_version()
+# options(blogdown.hugo.version = "0.147.9" )
 
-rm(list=ls())
-
-options(blogdown.knit.on_save = FALSE)
-options(blogdown.knit.serve_site = FALSE)
-
-#blogdown::install_hugo()
-
-blogdown::build_site()
+blogdown::build_site(build_rmd = 'newfile')
 blogdown::serve_site()
-
 blogdown::stop_server()
 
-
+blogdown::check_site()

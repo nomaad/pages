@@ -1,72 +1,137 @@
-# Configuration of Academic
-# Documentation: https://sourcethemes.com/academic/
-#
-# This file is formatted using TOML syntax - learn more at https://learnxinyminutes.com/docs/toml/
-# Each configuration section is defined by a name in square brackets (e.g. `[outputs]`).
-
-# Title of your site
-title = "Matthias Zaugg" # "nomaad.github.io"
-
-# The URL of your site.
-# End your URL with a `/` trailing slash, e.g. `https://example.com/`.
-baseurl = "https://nomaad.github.io/"
-
-# Enter a copyright notice to display in the site footer.
-# To display a copyright symbol, type `&copy;`. For current year, type `{year}`.
-copyright = ""
-
-############################
-## Advanced options below ##
-############################
-
-# Name of Academic theme folder in `themes/`.
-theme = "hugo-academic"
-
-# Get last modified date for content from Git?
-enableGitInfo = true
-
-# Default language to use (if you setup multilingual support)
+baseURL = "https://nomaad.github.io/"
+title = "Matthias Zaugg"
+pagination.pagerSize = 5
+theme = "PaperMod"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+pygmentsUseClasses = true
 defaultContentLanguage = "de"
-hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
-defaultContentLanguageInSubdir = false
-removePathAccents = true  # Workaround for https://github.com/gohugoio/hugo/issues/5687
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
 
-summaryLength = 30  # Listing summary length in words. Also, see `abstract_length` in `params.toml`.
-paginate = 20  # Number of items per page in paginated lists.
-enableEmoji = true
-footnotereturnlinkcontents = "<sup>^</sup>"
-ignoreFiles = ["\\.ipynb$", ".ipynb_checkpoints$", "\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+[minify]
+disableXML = true
+minifyOutput = true
 
-[outputs]
-  home = [ "HTML", "RSS", "JSON", "WebAppManifest" ]
-  section = [ "HTML", "RSS" ]
+[params]
+env = "production"
+title = "Matthias Zaugg"
+description = "Portfolio von Matthias Zaugg, Soziologe mit Software-Hintergrund | Data Analyst | Digitalisierung & Gesellschaftstheorie | R, Python, TypeScript, C# | Wien, Bern"
+keywords = [ "Blog", "Portfolio"]
+author = "Matthias Zaugg"
+#images = [ "<link or path of image for opengraph, twitter-cards>" ]
+DateFormat = "2. January 2006"
+defaultTheme = "auto"
+disableThemeToggle = false
+ShowReadingTime = true
+ShowShareButtons = false
+ShowPostNavLinks = false
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = false
+ShowWordCount = true
+ShowRssButtonInSectionTermList = true
+UseHugoToc = true
+disableSpecial1stPost = false
+disableScrollToTop = false
+comments = false
+hidemeta = false
+hideSummary = true
+showtoc = false
+tocopen = false
 
-[mediaTypes."application/manifest+json"]
-  suffixes = ["webmanifest"]
+  [params.assets]
+  #favicon = "<link / abs url>"
+  #favicon16x16 = "<link / abs url>"
+  #favicon32x32 = "<link / abs url>"
+  #apple_touch_icon = "<link / abs url>"
+  #safari_pinned_tab = "<link / abs url>"
 
-[outputFormats.WebAppManifest]
-  mediaType = "application/manifest+json"
-  rel = "manifest"
+  [params.label]
+  text = "Matthias Zaugg"
+  icon = "/apple-touch-icon.png"
+  iconHeight = 35
+
+  [params.profileMode]
+  enabled = false
+  title = "ExampleSite"
+  subtitle = "This is subtitle"
+  imageUrl = "<img location>"
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "my image"
+
+    [[params.profileMode.buttons]]
+    name = "Posts"
+    url = "posts"
+
+    [[params.profileMode.buttons]]
+    name = "Tags"
+    url = "tags"
+
+  [params.homeInfoParams]
+  Title = "Matthias Zaugg"
+  Content = "Soziologe mit Software-Hintergrund | Data Analyst | Digitalisierung & Gesellschaftstheorie | R, Python, TypeScript, C# | Wien, Bern"
+  
+  [[params.socialIcons]]
+  name = "bluesky"
+  url = "https://bsky.app/profile/matthiaszaugg.bsky.social"
+
+  [[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/nomaad/"
+
+[params.analytics.google]
+SiteVerificationTag = "G-WE9N8RLG8G"
+
+[params.analytics.bing]
+#SiteVerificationTag = "XYZabc"
+
+[params.analytics.yandex]
+#SiteVerificationTag = "XYZabc"
+
+  [params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+  #[params.editPost]
+  #URL = "https://github.com/<path_to_repo>/content"
+  #Text = "Suggest Changes"
+  #appendFilePath = true
+
+  [params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 10
+  keys = [ "title", "permalink", "summary", "content" ]
+
+#[[menu.main]]
+#identifier = "categories"
+#name = "Kategorien"
+#url = "/categories/"
+#weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+#[[menu.main]]
+#identifier = "example"
+#name = "example.org"
+#url = "https://example.org"
+#weight = 30
+
+[markup.highlight]
+noClasses = false
 
 [markup]
-  defaultMarkdownHandler = "goldmark"
   [markup.goldmark]
     [markup.goldmark.renderer]
-      unsafe = true  # Enable user to embed HTML snippets in Markdown content.
-  [markup.highlight]
-    codeFences = false  # Disable Hugo's code highlighter as it conflicts with Academic's highligher.
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 3
-
-[imaging]
-  resampleFilter = "lanczos"
-  quality = 90
-  anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
-
-# Taxonomies.
-[taxonomies]
-  tag = "tags"
-  category = "categories"
-  publication_type = "publication_types"
-  author = "authors"
+      unsafe = true

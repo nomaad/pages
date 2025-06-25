@@ -1,0 +1,70 @@
+baseurl = "/"
+defaultContentLanguage = "de"
+DefaultContentLanguageInSubdir = false
+#theme = "PaperMod"
+theme = "hugo-theme-terminal"
+pagination.pagerSize = 5
+
+[markup.goldmark.renderer]
+  unsafe = true
+  
+  # Required for Chroma and the custom syntax highlighting.
+[markup.highlight]
+  noClasses = false
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 5
+  fullWidthTheme = false
+  centerTheme = true
+
+#whether to show a page's estimated reading time
+readingTime = false # default
+
+#whether to show a table of contents
+#can be overridden in a page's front-matter
+Toc = false # default
+
+#set title for the table of contents
+#can be overridden in a page's front-matter
+TocTitle = "Inhaltsverzeichnis" # default
+
+[languages]
+    
+  [languages.de.params]
+    languageName = "Deutsch"
+    title = "nid gäbig"
+    #subtitle = "Soziologische Texte zur Gegenwart"
+    keywords = ""
+    copyright = ""
+    menuMore = "Mehr anzeigen"
+    readMore = "Mehr lesen"
+    readOtherPosts = "Andere Beiträge lesen"
+    newerPosts = "Neuere Beiträge"
+    olderPosts = "Ältere Beiträge"
+    missingContentMessage = "Seite nicht gefunden..."
+    missingBackButtonLabel = "Zurück zur Startseite"
+    minuteReadingTime = "min Lesezeit"
+    words = "Wörter"
+
+    [languages.de.params.logo]
+      logoText = "nid gäbig"
+      logoHomeLink = "/"
+
+    [languages.de.menu]
+      [[languages.de.menu.main]]
+        identifier = "about"
+        name = "Über mich"
+        url = "/about"
+        weight=3
+      [[languages.de.menu.main]]
+        identifier = "essays"
+        name = "Essays"
+        url = "/"
+        weight=1
+      [[languages.de.menu.main]]
+        identifier = "gedanken"
+        name = "Alltagsgedanken"
+        url = "/tags/alltagsgedanken/"
+        weight=2
+      
