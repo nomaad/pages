@@ -8,7 +8,7 @@ ShowPostNavLinks: false
 ShowWordCount: false
 ---
 
-Ich bin ein interdisziplinär ausgebildeter Sozialforscher mit einem früheren Hintergrund in der Softwareentwicklung. Mein Schwerpunkt liegt auf der Analyse gesellschaftlicher Prozesse im 
+Ich bin ein interdisziplinär ausgebildeter Sozialforscher (Soziologie MA, Soziale Arbeit BSc) mit einem früheren Hintergrund in der Softwareentwicklung. Mein Schwerpunkt liegt auf der Analyse gesellschaftlicher Prozesse im 
 Kontext von Digitalisierung (digitaler Kapitalismus & digitale Öffentlichkeit), Prozessen der (Ent-)Demokratisierung, direkter Demokratie, sozialer Ungleichheit und politischer Ökonomie. Ich lebe in Wien.
 
 <!--Durch mein Studium der Sozialen Arbeit (BSc) und Soziologie (MA), einer Ausbildung als Softwareentwickler sowie meiner Praxiserfahrung in unterschiedlichen Bereichen der Sozialen Arbeit (ca. 8 Jahre), der Softwareentwicklung (ca. 9 Jahre) und als soziologischer Hilfsassistent an der Uni (2 Jahre), 
