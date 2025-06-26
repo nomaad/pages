@@ -7,8 +7,12 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 pygmentsUseClasses = true
+enableEmoji = true
 defaultContentLanguage = "de"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$"]
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
 
 [minify]
 disableXML = true
@@ -17,12 +21,12 @@ minifyOutput = true
 [params]
 env = "production"
 title = "Matthias Zaugg"
-description = "Portfolio von Matthias Zaugg, Soziologe mit Software-Hintergrund | Data Analyst | Digitalisierung & Gesellschaftstheorie | R, Python, TypeScript, C# | Wien, Bern"
+description = "Portfolio von Matthias Zaugg, Soziologe mit Software-Hintergrund | Data Analyst | Digitalisierung, (Ent-)Demokratisierung & Gesellschaftstheorie | R, TypeScript, C#, Python | Wien, Bern"
 keywords = [ "Blog", "Portfolio"]
 author = "Matthias Zaugg"
 #images = [ "<link or path of image for opengraph, twitter-cards>" ]
 DateFormat = "2. January 2006"
-defaultTheme = "auto"
+defaultTheme = "light"
 disableThemeToggle = false
 ShowReadingTime = true
 ShowShareButtons = false
@@ -53,25 +57,25 @@ tocopen = false
   iconHeight = 35
 
   [params.profileMode]
-  enabled = false
-  title = "ExampleSite"
-  subtitle = "This is subtitle"
-  imageUrl = "<img location>"
-  imageWidth = 120
-  imageHeight = 120
-  imageTitle = "my image"
+  enabled = true
+  title = "Matthias Zaugg"
+  subtitle = "Soziologe mit Software-Hintergrund | Data Analyst | Digitalisierung, (Ent-)Demokratisierung & Gesellschaftstheorie | R, TypeScript, C#, Python | Wien, Bern"
+  imageUrl = "/img/mz.png"
+  imageWidth = 150
+  imageHeight = 150
+  imageTitle = "Matthias Zaugg"
 
-    [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
+    #[[params.profileMode.buttons]]
+    #name = "Blog"
+    #url = "posts"
 
-    [[params.profileMode.buttons]]
-    name = "Tags"
-    url = "tags"
+    #[[params.profileMode.buttons]]
+    #name = "Themen"
+    #url = "tags"
 
   [params.homeInfoParams]
   Title = "Matthias Zaugg"
-  Content = "Soziologe mit Software-Hintergrund | Data Analyst | Digitalisierung & Gesellschaftstheorie | R, Python, TypeScript, C# | Wien, Bern"
+  Content = "Soziologe mit Software-Hintergrund | Data Analyst | Digitalisierung, (Ent-)Demokratisierung & Gesellschaftstheorie | R, TypeScript, C#, Python | Wien, Bern"
   
   [[params.socialIcons]]
   name = "bluesky"
@@ -117,10 +121,28 @@ SiteVerificationTag = "G-WE9N8RLG8G"
 #weight = 10
 
 [[menu.main]]
+identifier = "posts"
+name = "Blog"
+url = "/posts/"
+weight = 10
+
+[[menu.main]]
 identifier = "tags"
-name = "Tags"
+name = "Themen"
 url = "/tags/"
 weight = 20
+
+[[menu.main]]
+identifier = "about"
+name = "Über mich"
+url = "/about/"
+weight = 30
+
+[[menu.main]]
+identifier = "search"
+name = "Suche"
+url = "/search/"
+weight = 90
 
 #[[menu.main]]
 #identifier = "example"
